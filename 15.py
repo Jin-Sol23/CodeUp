@@ -14,6 +14,3 @@ print(b)
 a, b = map(int, input().split())
 print(a)
 print(b)
-
-
-##ddd
