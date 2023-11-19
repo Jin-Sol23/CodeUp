@@ -9,3 +9,14 @@ d = int(d)
 n = int(n)
 
 print(a+d*(n-1)) # 검색
+
+# 정답
+a, d, n = input().split()
+a = int(a)
+d = int(d)
+n = int(n)
+
+s = a
+for i in range(2, n+1):
+    s += d
+print(s)
